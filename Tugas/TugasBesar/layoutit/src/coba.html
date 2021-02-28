@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="Owlcarousel/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="Owlcarousel/owl.theme.green.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+    <!-- <link rel="stylesheet" href="../../../boot4/fontawesome/css/all.min.css"> -->
+
+    <style>
+        /* bagian 3 */
+        .owl-prev {
+            left: -30px;
+        }
+
+        .owl-next {
+            right: -30px;
+        }
+
+        .owl-prev,
+        .owl-next {
+            position: absolute;
+            top: 20%;
+        }
+
+        .owl-prev span,
+        .owl-next span {
+            font-size: 60px;
+            color: gray;
+        }
+
+        .owl-theme .owl-nav [class*="owl-"]:hover {
+            background-color: transparent;
+        }
+
+        /*bagian 5
+         .owl-prev {
+            left: 10px
+        }
+
+        .owl-next {
+            right: 10px;
+        }
+
+        .owl-prev .owl-next {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .owl-prev:hover,
+        .owl-prev:active,
+        .owl-prev:focus,
+        .owl-next:hover,
+        .owl-next:active,
+        .owl-next:focus {
+            outline: 0;
+        }
+
+        .owl-prev span,
+        .owl-next span {
+            font-size: 60px;
+            color: #4DC7A0;
+            text-shadow: 1px 1px 5px #999;
+        }
+
+        .owl-theme .owl-nav [class*="owl-"]:hover {
+            background-color: transparent;
+        }
+
+        .owl-dots {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .owl-dot:hover,
+        .owl-dot:active,
+        .owl-dot:focus {
+            outline: 0;
+        }
+
+        .item-body {
+            position: absolute;
+            bottom: 35px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background-color: aqua;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .item-body h5,
+        .item-body p {
+            margin: 0;
+        } */
+
+        /*bagian 6
+        .owl-prev {
+            left: 15;
+        }
+
+        .owl-next {
+            right: 15;
+        }
+
+        .owl-prev,
+        .owl-next {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .owl-prev:hover,
+        .owl-prev:active,
+        .owl-prev:focus,
+        .owl-next:hover,
+        .owl-next:active,
+        .owl-next:focus {
+            outline: 0;
+        }
+
+        .owl-prev i,
+        .owl-next i {
+            font-size: 20px;
+            color: aliceblue;
+            text-shadow: 1px 1px 5px #000;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .owl-theme .owl-nav [class*="owl-"]:hover {
+            background-color: transparent;
+        }
+
+        .item {
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+        .item img {
+            border-top-left-radius: 3px solid #ddd;
+            border-top-right-radius: 3px solid #ddd;
+        }
+
+        .item h5 {
+            font-size: 11pt;
+            margin: 7px 5px 0px 7px;
+        }
+
+        .item p {
+            margin: 5px 5px 5px;
+            font-size: 10pt;
+        }
+
+        */
+    </style>
+</head>
+
+<body>
+
+    Bagian 1
+
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+            <div class="ml-2 mr-2 bg-info">1</div>
+            <div class="ml-2 mr-2 bg-info">2</div>
+            <div class="ml-2 mr-2 bg-info">3</div>
+            <div class="ml-2 mr-2 bg-info">4</div>
+            <div class="ml-2 mr-2 bg-info">5</div>
+            <div class="ml-2 mr-2 bg-info">6</div>
+            <div class="ml-2 mr-2 bg-info">7</div>
+            <div class="ml-2 mr-2 bg-info">8</div>
+            <div class="ml-2 mr-2 bg-info">9</div>
+            <div class="ml-2 mr-2 bg-info">10</div>
+        </div>
+    </div>
+
+    <!-- bagian 2
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+            <div class="ml-2 mr-2 bg-info">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-2 mr-2 bg-info">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-2 mr-2 bg-info">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-2 mr-2 bg-info">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-2 mr-2 bg-info">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-2 mr-2 bg-info">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- bagian 3
+    <div class="container mt-5 mb-5">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="bahan/berita1.webp" class="card-img-top" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+
+    <!-- bagian 4 
+        <div class="container mt-5 mb-5">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="card">
+                    <img data-src="bahan/berita1.webp" class="card-img-top owl-lazy" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img data-src="bahan/berita1.webp" class="card-img-top owl-lazy" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img data-src="bahan/berita1.webp" class="card-img-top owl-lazy" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img data-src="bahan/berita1.webp" class="card-img-top owl-lazy" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img data-src="bahan/berita1.webp" class="card-img-top owl-lazy" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img data-src="bahan/berita1.webp" class="card-img-top owl-lazy" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img data-src="bahan/berita1.webp" class="card-img-top owl-lazy" alt="" srcset="">
+                    <div class="card-body">
+                        <h5 class="card-title">Owlcarousel</h5>
+                        Post Description
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+    <!-- bagian 5 
+        <div class="container mt-5 mb-5" style="width: 800px;">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="bahan/berita2.webp" alt="">
+                <div class="item-body">
+                    <h5>Post Title</h5>
+                    <p>description </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- bafian 6
+    <div style="width: 600px;" class="container mt-5 mb-5">
+        <div class="card">
+            <div class="card-header">
+                On Page
+            </div>
+            <div class="card-body owl-carousel owl-theme">
+                <div class="item">
+                    <img src="bahan/ball1.png" alt="" srcset="">
+                    <h5>Post Title</h5>
+                    <p>Post Description</p>
+                </div>
+                <div class="item">
+                    <img src="bahan/ball1.png" alt="" srcset="">
+                    <h5>Post Title</h5>
+                    <p>Post Description</p>
+                </div>
+                <div class="item">
+                    <img src="bahan/ball1.png" alt="" srcset="">
+                    <h5>Post Title</h5>
+                    <p>Post Description</p>
+                </div>
+                <div class="item">
+                    <img src="bahan/ball1.png" alt="" srcset="">
+                    <h5>Post Title</h5>
+                    <p>Post Description</p>
+                </div>
+                <div class="item">
+                    <img src="bahan/ball1.png" alt="" srcset="">
+                    <h5>Post Title</h5>
+                    <p>Post Description</p>
+                </div>
+                <div class="item">
+                    <img src="bahan/ball1.png" alt="" srcset="">
+                    <h5>Post Title</h5>
+                    <p>Post Description</p>
+                </div>
+                <div class="item">
+                    <img src="bahan/ball1.png" alt="" srcset="">
+                    <h5>Post Title</h5>
+                    <p>Post Description</p>
+                </div>
+                <div class="item">
+                    <img src="bahan/ball1.png" alt="" srcset="">
+                    <h5>Post Title</h5>
+                    <p>Post Description</p>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+    <!-- ----------------------------------------------------------------- -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="Owlcarousel/owl.carousel.min.js"></script>
+    <!-- <script src="Owlcarousel/mousewheel.min.js"></script> -->
+
+    <!-- bagian 1
+    <script>
+        $('.owl-carousel').owlCarousel();
+
+    </script> -->
+
+    <!-- bagian 2 -->
+    <!-- <script>
+        $('.owl-carousel').owlCarousel({
+
+            autoplay: true,
+            autoplayHoverPause: true
+        });
+    </script> -->
+
+    <!-- bagian 3 -->
+    <!-- <script>
+        $('.owl-carousel').owlCarousel({
+
+            autoplay: true,
+            autoplayHoverPause: true,
+            items: 4,
+            nav: true,
+            dots: true,
+            loop: true
+        });
+    </script> -->
+
+    <!--bagian 4 
+        <script>
+        $('.owl-carousel').owlCarousel({
+
+            autoplay: true,
+            autoplayHoverPause: true,
+            lazyLoad: true,
+            margin: 5,
+            stagePadding: 5,
+            responsive: {
+                0: {
+                    items: 1,
+                    dots: false
+                },
+                485: {
+                    items: 2,
+                    dots: false
+                },
+                728: {
+                    items: 3,
+                    dots: false
+                },
+                960: {
+                    items: 4,
+                    dots: false
+                },
+                1200: {
+                    items: 5,
+                    dots: false
+                }
+            }
+        });
+
+        $('.owl-carousel').on('mousewheel', 'owl-stage', function (e) {
+            if (e.deltaY > 0) {
+                $('.owl-carousel').trigger('next-owl');
+            } else {
+                $('.owl-carousel').trigger('prev-owl');
+            }
+            e.preventDefault();
+        });
+    </script> -->
+
+    <!-- bagian 5
+    <script>
+        $('.owl-carousel').owlCarousel({
+            autoplay: true,
+            autoplayHoverPause: true,
+            items: 1,
+            smartSpeed: 450,
+            nav: true,
+            dots: true,
+            loop: true,
+            animateIn: 'flipInX',
+            animateOut: 'zoomOutDown'
+
+        });
+    </script> -->
+
+    <!-- bagian 6
+    <script>
+        $('.owl-carousel').owlCarousel({
+            autoplay: true,
+            autoplayHoverPause: true,
+            items: 3,
+            center: true,
+            loop: true,
+            dots: false,
+            margin: 10,
+            nav: true,
+            navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>']
+        });
+    </script> -->
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="Owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img src="bahan/berita1.webp" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="Owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html> -->

@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../boot4/fontawesome/css/all.min.css">
+
+    <style>
+        .carousel-item {
+            max-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid"
+        style="background-image: url(bahan/background.png); background-position: center; background-repeat: repeat;">
+        <!-- bagian 1 -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-toggleable-md navbar-light fixed-top"
+                            style="background-color: rgba(0, 0, 0, 0.76);">
+
+                            <div class="row" style="display: flex; justify-content: space-between;">
+                                <a class="navbar-brand text-white ml-5" href="../main.html">
+                                    <h3 style="font-family: Algerian;"><u>Cat-Abil</u></h3>
+                                </a>
+                                <button class="navbar-toggler mr-5" style="background-color: rgba(255, 255, 255, 0.87);"
+                                    type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                            </div>
+
+                            <div class="collapse navbar-collapse" style="text-align: center; margin-right: 5%;"
+                                id="bs-example-navbar-collapse-1">
+                                <ul class="navbar-nav ml-auto text-center">
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="http://example.com"
+                                            id="navbarDropdownMenuLink" data-toggle="dropdown"><b>Search</b></a>
+                                        <div class="dropdown-menu"
+                                            style="text-align: center; background-color: rgba(0, 0, 0, 0); border: none;"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <form class="form-inline dropdown-item"
+                                                style="background-color: rgba(240, 248, 255, 0);">
+                                                <input class="form-control mr-sm-2" type="text">
+                                                <button class="btn btn-primary my-2 my-sm-0" type="submit">
+                                                    <b>Search</b>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item active">
+                                        <a class="nav-link text-white" href="../shop/mainShop.html"><b>Shop</b> <span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="http://example.com"
+                                            id="navbarDropdownMenuLink" data-toggle="dropdown"><b>Bola</b></a>
+                                        <div class="dropdown-menu"
+                                            style="text-align: center; border: none; background-color: rgb(0, 0, 0);"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item text-danger" href="premierLeague.html"><b>Premier
+                                                    League</b></a> <a class="dropdown-item text-danger" href="#"><b>Liga
+                                                    1</b></a> <a class="dropdown-item text-danger" href="#"><b>Liga
+                                                    Italy</b>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#"><b>Galeri</b></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="http://example.com"
+                                            id="navbarDropdownMenuLink" data-toggle="dropdown"><b>E-Sport</b></a>
+                                        <div class="dropdown-menu"
+                                            style="text-align: center; border: none; background-color: rgb(0, 0, 0);"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item text-danger" href="#"><b>Action</b></a> <a
+                                                class="dropdown-item text-danger" href="#"><b>Another action</b></a> <a
+                                                class="dropdown-item text-danger" href="#"><b>Something</b>
+                                                else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="http://example.com"
+                                            id="navbarDropdownMenuLink" data-toggle="dropdown"><b>Competition</b></a>
+                                        <div class="dropdown-menu"
+                                            style="text-align: center; border: none; background-color: rgb(0, 0, 0);"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item text-danger" href="#"><b>Action</b></a> <a
+                                                class="dropdown-item text-danger" href="#"><b>Another action</b></a> <a
+                                                class="dropdown-item text-danger" href="#"><b>Something</b>
+                                                else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="http://example.com"
+                                            id="navbarDropdownMenuLink" data-toggle="dropdown"><b>Car-F1</b></a>
+                                        <div class="dropdown-menu"
+                                            style="text-align: center; border: none; background-color: rgb(0, 0, 0);"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item text-danger" href="#"><b>Action</b></a> <a
+                                                class="dropdown-item text-danger" href="#"><b>Another action</b></a> <a
+                                                class="dropdown-item text-danger" href="#"><b>Something</b>
+                                                else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="http://example.com"
+                                            id="navbarDropdownMenuLink" data-toggle="dropdown"><b>Motor-GP</b></a>
+                                        <div class="dropdown-menu"
+                                            style="text-align: center; border: none; background-color: rgb(0, 0, 0);"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item text-danger" href="#"><b>Action</b></a> <a
+                                                class="dropdown-item text-danger" href="#"><b>Another action</b></a> <a
+                                                class="dropdown-item text-danger" href="#"><b>Something</b>
+                                                else here</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="carousel slide h-100" id="carousel-330159">
+                        <ol class="carousel-indicators">
+                            <li data-slide-to="0" data-target="#carousel-330159">
+                            </li>
+                            <li data-slide-to="1" data-target="#carousel-330159" class="active">
+                            </li>
+                            <li data-slide-to="2" data-target="#carousel-330159">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img class="d-block w-100" alt="Carousel Bootstrap First"
+                                    src="../bahan/thumbnailS(1).png">
+                                <div class="carousel-caption">
+                                    <h4>
+                                        <a href="#">More Info</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" alt="Carousel Bootstrap Second"
+                                    src="../bahan/thumbnailS(2).png">
+                                <div class="carousel-caption">
+                                    <h4>
+                                        <a href="#">More Info</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" alt="Carousel Bootstrap Third" src="../bahan/thumbnailS.png">
+                                <div class="carousel-caption">
+                                    <h4>
+                                        <a href="#">More Info</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-330159" data-slide="prev"><span
+                                class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a
+                            class="carousel-control-next" href="#carousel-330159" data-slide="next"><span
+                                class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- akhir bagian 1 -->
+
+        <!-- bagian 2 -->
+        <div class="row m-5">
+            <div class="col-md-8 bg-info">
+                <h1 class="title m-4">Premier League</h1>
+                <hr style="background-color: red;">
+                <div class="row m-5">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritapr1.jpg"
+                                    class="img-thumbnail w-100" />
+                                <div class="row">
+                                    <div class="col-md-12"
+                                        style="margin-top: -65px; background-color: rgb(255, 255, 255);">
+                                        <h3 class="">
+                                            h3. Lorem ipsum dolor sit amet.
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img alt="Bootstrap Image Preview" src="../bahan/beritapr2.jpg"
+                                            class="img-thumbnail w-100" />
+                                        <div class="row" style="margin-top: -64px;">
+                                            <div class="col-md-12">
+                                                <blockquote class="blockquote ml-5"
+                                                    style=" font-size: 18px;background-color: white; box-shadow: 3px 3px 0px #D7DACC, 8px 8px 0px rgba(0, 0, 0, 0.1);">
+                                                    <p class="mb-0">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+
+                                                    </p>
+                                                    <footer class="blockquote-footer mt-1">
+                                                        03-10-2021
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img alt="Bootstrap Image Preview" src="../bahan/beritapr2.jpg"
+                                            class="img-thumbnail w-100" />
+                                        <div class="row" style="margin-top: -64px;">
+                                            <div class="col-md-12">
+                                                <blockquote class="blockquote ml-5"
+                                                    style=" font-size: 18px;background-color: white; box-shadow: 3px 3px 0px #D7DACC, 8px 8px 0px rgba(0, 0, 0, 0.1);">
+                                                    <p class="mb-0">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+
+                                                    </p>
+                                                    <footer class="blockquote-footer mt-1">
+                                                        03-10-2021
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <img alt="Bootstrap Image Preview" src="../bahan/beritapr2.jpg"
+                                                class="img-thumbnail w-100" />
+                                            <div class="row" style="margin-top: -64px;">
+                                                <div class="col-md-12">
+                                                    <blockquote class="blockquote ml-5"
+                                                        style=" font-size: 18px;background-color: white; box-shadow: 3px 3px 0px #D7DACC, 8px 8px 0px rgba(0, 0, 0, 0.1);">
+                                                        <p class="mb-0">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Integer
+
+                                                        </p>
+                                                        <footer class="blockquote-footer mt-1">
+                                                            03-10-2021
+                                                        </footer>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <img alt="Bootstrap Image Preview" src="../bahan/beritapr2.jpg"
+                                                class="img-thumbnail w-100" />
+                                            <div class="row" style="margin-top: -64px;">
+                                                <div class="col-md-12">
+                                                    <blockquote class="blockquote ml-5"
+                                                        style=" font-size: 18px;background-color: white; box-shadow: 3px 3px 0px #D7DACC, 8px 8px 0px rgba(0, 0, 0, 0.1);">
+                                                        <p class="mb-0">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Integer
+
+                                                        </p>
+                                                        <footer class="blockquote-footer mt-1">
+                                                            03-10-2021
+                                                        </footer>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="col-md-12">
+                                            <img alt="Bootstrap Image Preview" src="../bahan/beritapr7.jpg"
+                                                class="img-thumbnail w-100" />
+                                            <div class="row" style="margin-top: -58px;">
+                                                <div class="col-md-12">
+                                                    <blockquote class="blockquote ml-5"
+                                                        style=" font-size: 18px;background-color: white; box-shadow: 3px 3px 0px #D7DACC, 8px 8px 0px rgba(0, 0, 0, 0.1);">
+                                                        <p class="mb-0">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Integer
+
+                                                        </p>
+                                                        <footer class="blockquote-footer mt-1">
+                                                            03-10-2021
+                                                        </footer>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- terpopuler -->
+                <div class="row m-5">
+                    <div class="col-md-12">
+                        <h3 class="m-4">
+                            Hot News
+                        </h3>
+                        <hr style="background-color: red;">
+                        <div class="row mt-5">
+
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritapr8.jpeg"
+                                    class="img-thumbnail w-100" />
+                            </div>
+                            <div class="col-md-8">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        Someone famous in <cite>Source Title</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritapr9.jpg"
+                                    class="img-thumbnail w-100" />
+                            </div>
+                            <div class="col-md-8">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        Someone famous in <cite>Source Title</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritapr10.jpg"
+                                    class="img-thumbnail w-100" />
+                            </div>
+                            <div class="col-md-8">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        Someone famous in <cite>Source Title</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritapr11.jpg"
+                                    class="img-thumbnail w-100" />
+                            </div>
+                            <div class="col-md-8">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        Someone famous in <cite>Source Title</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritapr12.jpg"
+                                    class="img-thumbnail w-100" />
+                            </div>
+                            <div class="col-md-8">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        Someone famous in <cite>Source Title</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritapr13.jpg"
+                                    class="img-thumbnail w-100" />
+                            </div>
+                            <div class="col-md-8">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                        ante.
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        Someone famous in <cite>Source Title</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Akhir -->
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-left">
+                            Terpopuler
+                        </h3>
+                        <hr style="background-color: red;">
+
+                        <div class="row mt-4">
+                            <div class="col-md-12">
+                                <ol style="list-style: none;">
+                                    <li class="list-item mt-3">
+                                        <div class="row">
+                                            <div class="col-md-1 h-25" style="background-color: gray;">1</div>
+                                            <img src="../bahan/beritapr13.jpg"
+                                                class="img-thumbnail w-100 d-block col-md-4" alt="" srcset="">
+
+                                            <div class="col-md-7" style="display: flex; align-items: center;">
+                                                <h6>Lorem ipsum dolor, sit amet consectetur
+                                                    adipisicing
+                                                    elit. Quae?</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item mt-3">
+                                        <div class="row">
+                                            <div class="col-md-1 h-25" style="background-color: gray;">1</div>
+                                            <img src="../bahan/beritapr13.jpg"
+                                                class="img-thumbnail w-100 d-block col-md-4" alt="" srcset="">
+
+                                            <div class="col-md-7" style="display: flex; align-items: center;">
+                                                <h6>Lorem ipsum dolor, sit amet consectetur
+                                                    adipisicing
+                                                    elit. Quae?</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item mt-3">
+                                        <div class="row">
+                                            <div class="col-md-1 h-25" style="background-color: gray;">1</div>
+                                            <img src="../bahan/beritapr13.jpg"
+                                                class="img-thumbnail w-100 d-block col-md-4" alt="" srcset="">
+
+                                            <div class="col-md-7" style="display: flex; align-items: center;">
+                                                <h6>Lorem ipsum dolor, sit amet consectetur
+                                                    adipisicing
+                                                    elit. Quae?</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item mt-3">
+                                        <div class="row">
+                                            <div class="col-md-1 h-25" style="background-color: gray;">1</div>
+                                            <img src="../bahan/beritapr13.jpg"
+                                                class="img-thumbnail w-100 d-block col-md-4" alt="" srcset="">
+
+                                            <div class="col-md-7" style="display: flex; align-items: center;">
+                                                <h6>Lorem ipsum dolor, sit amet consectetur
+                                                    adipisicing
+                                                    elit. Quae?</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item mt-3">
+                                        <div class="row">
+                                            <div class="col-md-1 h-25" style="background-color: gray;">1</div>
+                                            <img src="../bahan/beritapr13.jpg"
+                                                class="img-thumbnail w-100 d-block col-md-4" alt="" srcset="">
+
+                                            <div class="col-md-7" style="display: flex; align-items: center;">
+                                                <h6>Lorem ipsum dolor, sit amet consectetur
+                                                    adipisicing
+                                                    elit. Quae?</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item mt-3">
+                                        <div class="row">
+                                            <div class="col-md-1 h-25" style="background-color: gray;">1</div>
+                                            <img src="../bahan/beritapr13.jpg"
+                                                class="img-thumbnail w-100 d-block col-md-4" alt="" srcset="">
+
+                                            <div class="col-md-7" style="display: flex; align-items: center;">
+                                                <h6>Lorem ipsum dolor, sit amet consectetur
+                                                    adipisicing
+                                                    elit. Quae?</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item mt-3">
+                                        <div class="row">
+                                            <div class="col-md-1 h-25" style="background-color: gray;">1</div>
+                                            <img src="../bahan/beritapr13.jpg"
+                                                class="img-thumbnail w-100 d-block col-md-4" alt="" srcset="">
+
+                                            <div class="col-md-7" style="display: flex; align-items: center;">
+                                                <h6>Lorem ipsum dolor, sit amet consectetur
+                                                    adipisicing
+                                                    elit. Quae?</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <h3>
+                            Kolom
+                        </h3>
+                        <hr style="background-color: red;">
+
+                        <div class="row mt-4" style="align-items: center;">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritaprcc1.jpeg"
+                                    class="rounded-circle w-100" />
+                            </div>
+                            <div class="col-md-8 h-25"
+                                style="border-radius: 5px;display: flex; align-items: center; margin-left: -64px; background-color: rgba(49, 49, 49, 0.87);">
+                                <h5 class="text-white">
+                                    Nama Orang
+                                </h5>
+                                <p class="ml-4 text-white">Berita yang disampaikan</p>
+                            </div>
+                        </div>
+                        <div class="row mt-4" style="align-items: center;">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritaprcc2.png"
+                                    class="rounded-circle w-100" />
+                            </div>
+                            <div class="col-md-8 h-25"
+                                style="border-radius: 5px;display: flex; align-items: center; margin-left: -64px; background-color: rgba(49, 49, 49, 0.87);">
+                                <h5 class="text-white">
+                                    Nama Orang
+                                </h5>
+                                <p class="ml-4 text-white">Berita yang disampaikan</p>
+                            </div>
+                        </div>
+                        <div class="row mt-4" style="align-items: center;">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritaprcc3.jpg"
+                                    class="rounded-circle w-100" />
+                            </div>
+                            <div class="col-md-8 h-25"
+                                style="border-radius: 5px;display: flex; align-items: center; margin-left: -64px; background-color: rgba(49, 49, 49, 0.87);">
+                                <h5 class="text-white">
+                                    Nama Orang
+                                </h5>
+                                <p class="ml-4 text-white">Berita yang disampaikan</p>
+                            </div>
+                        </div>
+                        <div class="row mt-4" style="align-items: center;">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritaprcc4.jpg"
+                                    class="rounded-circle w-100" />
+                            </div>
+                            <div class="col-md-8 h-25"
+                                style="border-radius: 5px;display: flex; align-items: center; margin-left: -64px; background-color: rgba(49, 49, 49, 0.87);">
+                                <h5 class="text-white">
+                                    Nama Orang
+                                </h5>
+                                <p class="ml-4 text-white">Berita yang disampaikan</p>
+                            </div>
+                        </div>
+                        <div class="row mt-4" style="align-items: center;">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="../bahan/beritaprcc1.jpeg"
+                                    class="rounded-circle w-100 h-100" />
+                            </div>
+                            <div class="col-md-8 h-25"
+                                style="border-radius: 5px;display: flex; align-items: center; margin-left: -64px; background-color: rgba(49, 49, 49, 0.87);">
+                                <h5 class="text-white">
+                                    Nama Orang
+                                </h5>
+                                <p class="ml-4 text-white">Berita yang disampaikan Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Doloribus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bagian 2 -->
+
+        <!-- Footer -->
+        <div class="row mt-5" style="background-color: black;">
+            <div class="col-md-12 text-center">
+                <div class="row">
+                    <div class="col-md-12 mt-5" style="display: flex; justify-content: center;">
+                        <img alt="Bootstrap Image Preview" src="../bahan/Logo.png" class="img-thumbnail d-block"
+                            style="width: 15%; border-radius: 10vh">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-unstyled text-center" style="font-size: 12vh;">
+                            <li class="list-item list-inline-item"><a href="#">
+                                    <i class="fab fa-instagram-square"></i>
+                                </a>
+                            </li>
+                            <li class="list-item list-inline-item">
+                                <a href="#">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+                            <li class="list-item list-inline-item"> <a href="">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="list-item list-inline-item"> <a href="">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </li>
+                            <li class="list-item list-inline-item"> <a href="">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-unstyled text-center">
+                            <li class="list-item btn btn-success m-2">
+                                Lorem ipsum
+                            </li>
+                            <li class="list-item btn btn-success m-2">
+                                Lorem ipsum
+                            </li>
+                            <li class="list-item btn btn-success m-2">
+                                Lorem ipsum
+                            </li>
+                            <li class="list-item btn btn-success m-2">
+                                Lorem ipsum
+                            </li>
+                            <li class="list-item btn btn-success m-2">
+                                Lorem ipsum
+                            </li>
+                            <li class="list-item btn btn-success m-2">
+                                Lorem ipsum
+                            </li>
+                            <li class="list-item btn btn-success m-2">
+                                Lorem ipsum
+                            </li>
+                            <li class="list-item btn btn-success m-2">
+                                Lorem ipsum
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <p class="blockquote-footer mt-5" style="font-size: 2vh;">
+                    Copy@2021 Cat-Abil.com KapanLagi!!! Reserved
+                </p>
+            </div>
+        </div>
+        <!-- Akhir Footer -->
+
+    </div>
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <script src="../js/jquery.min.js">
+    </script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
